@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BIG FISH Payment Gateway for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Mar 26 2015 13:39:48 GMT+0100 (CET)\n"
+"PO-Revision-Date: Thu Mar 26 2015 14:01:28 GMT+0100 (CET)\n"
+"Last-Translator: bfadmin <krisz@bigfish.hu>\n"
+"Language-Team: \n"
+"Language: Hungarian\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: hu_HU\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../big_fish_payment_gateway.php:148
+msgid "CIB Bank"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:149
+msgid "K&H Bank"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:150
+msgid "OTP Bank"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:152
+msgid "PayPal"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:153
+msgid "SMS"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:155
+msgid "Escalion"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:156
+msgid "MasterCard® Mobile"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:157
+msgid "PayU"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:158
+msgid "UniCredit Bank"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:159
+msgid "Wirecard QPAY"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:160
+msgid "FHB Bank"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:161
+msgid "Barion"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:162
+msgid "OTPay"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:163
+msgid "PayU Wire"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:164
+msgid "PayU Cash"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:165
+msgid "Sofort Banking"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:166
+msgid "Borgun"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:167
+msgid "OTPay MasterPass"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:169
+msgid "OTP Multipont"
+msgstr ""
+
+#: ../classes/providers/otp2.php:32
+msgid "CVC"
+msgstr ""
+
+#: ../classes/providers/mkbszep.php:29
+msgid "CVV"
+msgstr ""
+
+#: ../big_fish_payment_gateway.php:120
+msgid "Settings"
+msgstr "Beállítások"
+
+#: ../big_fish_payment_gateway.php:124
+msgid "Store name"
+msgstr "Bolt neve"
+
+#: ../big_fish_payment_gateway.php:130
+msgid "API key"
+msgstr "API kulcs"
+
+#: ../big_fish_payment_gateway.php:136
+msgid "Test mode"
+msgstr "Teszt mód"
+
+#: ../big_fish_payment_gateway.php:139
+msgid "Yes"
+msgstr "Igen"
+
+#: ../big_fish_payment_gateway.php:140
+msgid "No"
+msgstr "Nem"
+
+#: ../big_fish_payment_gateway.php:145
+msgid "Available providers"
+msgstr "Elérhető szolgáltatók"
+
+#: ../big_fish_payment_gateway.php:151
+msgid "OTP SZÉP Card"
+msgstr "OTP SZÉP Kártya"
+
+#: ../big_fish_payment_gateway.php:154
+msgid "OTP Bank (two participants)"
+msgstr "OTP Bank (kétszereplős)"
+
+#: ../big_fish_payment_gateway.php:168
+msgid "K&H SZÉP Card"
+msgstr "K&H SZÉP Kártya"
+
+#: ../big_fish_payment_gateway.php:170
+msgid "MKB SZÉP Card"
+msgstr "MKB SZÉP Kártya"
+
+#: ../big_fish_payment_gateway.php:260
+msgid "No transaction ID!"
+msgstr "Hiányzó tranzakció azonosító!"
+
+#: ../big_fish_payment_gateway.php:287
+msgid "Transaction ID"
+msgstr "Tranzakció azonosító"
+
+#: ../big_fish_payment_gateway.php:290
+msgid "Authorization number"
+msgstr "Engedélyszám"
+
+#: ../big_fish_payment_gateway.php:421 ../big_fish_payment_gateway.php:423
+msgid "Transaction closed"
+msgstr "Tranzakció lezárás"
+
+#: ../big_fish_payment_gateway.php:421 ../big_fish_payment_gateway.php:650
+msgid "SUCCESSFUL"
+msgstr "SIKERES"
+
+#: ../big_fish_payment_gateway.php:423 ../big_fish_payment_gateway.php:653
+msgid "FAILED"
+msgstr "SIKERTELEN"
+
+#: ../big_fish_payment_gateway.php:550
+msgid "Database insert error!"
+msgstr "Adatbázis hiba!"
+
+#: ../big_fish_payment_gateway.php:650 ../big_fish_payment_gateway.php:653
+msgid "Refund"
+msgstr "Visszatérítés"
+
+#: ../classes/providers/fhb.php:28 ../classes/providers/payu.php:28 ..
+#: classes/providers/sofort.php:26 ../classes/providers/otp2.php:44 ..
+#: classes/providers/barion.php:26 ../classes/providers/khb.php:28 ..
+#: classes/providers/otpay.php:28 ../classes/providers/mpp2.php:28 ..
+#: classes/providers/otpmultipont.php:26 ../classes/providers/escalion.php:28 ..
+#: classes/providers/cib.php:28 ../classes/providers/mkbszep.php:41 ..
+#: classes/providers/paypal.php:28 ../classes/providers/qpay.php:28 ..
+#: classes/providers/payucash.php:26 ../classes/providers/payuwire.php:28 ..
+#: classes/providers/unicredit.php:28 ../classes/providers/otpszep.php:41 ..
+#: classes/providers/otp.php:28 ../classes/providers/otpaymp.php:26 ..
+#: classes/providers/sms.php:26 ../classes/providers/khbszep.php:26 ..
+#: classes/providers/borgun.php:26
+msgid "Active"
+msgstr "Aktív"
+
+#: ../classes/providers/fhb.php:32 ../classes/providers/payu.php:32 ..
+#: classes/providers/sofort.php:30 ../classes/providers/otp2.php:48 ..
+#: classes/providers/barion.php:30 ../classes/providers/khb.php:32 ..
+#: classes/providers/otpay.php:32 ../classes/providers/mpp2.php:32 ..
+#: classes/providers/otpmultipont.php:30 ../classes/providers/escalion.php:32 ..
+#: classes/providers/cib.php:32 ../classes/providers/mkbszep.php:45 ..
+#: classes/providers/paypal.php:32 ../classes/providers/qpay.php:32 ..
+#: classes/providers/payucash.php:30 ../classes/providers/payuwire.php:32 ..
+#: classes/providers/unicredit.php:32 ../classes/providers/otpszep.php:45 ..
+#: classes/providers/otp.php:32 ../classes/providers/otpaymp.php:30 ..
+#: classes/providers/sms.php:30 ../classes/providers/khbszep.php:30 ..
+#: classes/providers/borgun.php:30
+msgid "Display name"
+msgstr "Megjelenő név"
+
+#: ../classes/providers/fhb.php:37 ../classes/providers/payu.php:37 ..
+#: classes/providers/otp2.php:53 ../classes/providers/otpay.php:37 ..
+#: classes/providers/qpay.php:37 ../classes/providers/unicredit.php:37 ..
+#: classes/providers/otp.php:37
+msgid "Authorization"
+msgstr "Végrehajtás"
+
+#: ../classes/providers/fhb.php:40 ../classes/providers/payu.php:40 ..
+#: classes/providers/otp2.php:56 ../classes/providers/otpay.php:40 ..
+#: classes/providers/qpay.php:40 ../classes/providers/unicredit.php:40 ..
+#: classes/providers/otp.php:40
+msgid "Immediate"
+msgstr "Azonnal"
+
+#: ../classes/providers/fhb.php:41 ../classes/providers/payu.php:41 ..
+#: classes/providers/otp2.php:57 ../classes/providers/otpay.php:41 ..
+#: classes/providers/qpay.php:41 ../classes/providers/unicredit.php:41 ..
+#: classes/providers/otp.php:41
+msgid "Later"
+msgstr "Később"
+
+#: ../classes/providers/otp2.php:30 ../classes/providers/mkbszep.php:28
+msgid "Card number"
+msgstr "Kártyaszám"
+
+#: ../classes/providers/otp2.php:31
+msgid "Card expiration (mmyy)"
+msgstr "Kártya lejárati ideje (hhéé)"
+
+#: ../classes/providers/otp2.php:62 ../classes/providers/mkbszep.php:60
+msgid "Encrypt public key"
+msgstr "Publikus kulcs"
+
+#: ../classes/providers/mkbszep.php:50 ../classes/providers/otpszep.php:62 ..
+#: classes/providers/khbszep.php:35
+msgid "Available pocket"
+msgstr "Zseb beállítása"
+
+#: ../classes/providers/mkbszep.php:53 ../classes/providers/otpszep.php:65 ..
+#: classes/providers/khbszep.php:38
+msgid "Please, select a pocket"
+msgstr "Kérem, válasszon egy zsebet"
+
+#: ../classes/providers/mkbszep.php:54 ../classes/providers/otpszep.php:66 ..
+#: classes/providers/khbszep.php:39
+msgid "Accommodation"
+msgstr "Szálláshely"
+
+#: ../classes/providers/mkbszep.php:55 ../classes/providers/otpszep.php:67 ..
+#: classes/providers/khbszep.php:40
+msgid "Hospitality"
+msgstr "Vendéglátás"
+
+#: ../classes/providers/mkbszep.php:56 ../classes/providers/otpszep.php:68 ..
+#: classes/providers/khbszep.php:41
+msgid "Leisure"
+msgstr "Szabadidő"
+
+#: ../classes/providers/otpszep.php:50
+msgid "SZÉP Store name"
+msgstr "OTP SZÉP Kártyához tartozó bolt neve"
+
+#: ../classes/providers/otpszep.php:56
+msgid "SZÉP API key"
+msgstr ""
+"OTP SZÉP Kártyához tartozó \n"
+"API kulcs"
