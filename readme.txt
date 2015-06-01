@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-BIG FISH Payment Gateway is available now for webshops as a Woo Commerce module.
+BIG FISH Payment Gateway is available now for webshops as a WooCommerce module.
 
 == Description ==
 
