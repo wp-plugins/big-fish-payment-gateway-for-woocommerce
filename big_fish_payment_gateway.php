@@ -4,7 +4,7 @@
  * Plugin Name: BIG FISH Payment Gateway for WooCommerce
  * Plugin URI: https://www.paymentgateway.hu/
  * Description: A BIG FISH Payment Gateway egy olyan szolgáltatás, amely segítségével Ön többféle elektronikus fizetési megoldást kínálhat webáruházában.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: BIG FISH Internet-technológiai Kft.
  * Author URI: http://bigfish.hu
  */
@@ -326,7 +326,8 @@ function BigFishPaymentGatewayWoo() {
 					
 					$woocommerce->cart->empty_cart();
 
-					$location = add_query_arg('key', $order->order_key, get_permalink(woocommerce_get_page_id('thanks'))."&order-received=".$order->id);
+					$location = add_query_arg('key', $order->order_key, get_permalink(woocommerce_get_page_id('thanks')));
+					$location = add_query_arg('order-received', $order->id, $location);
 
 					wp_safe_redirect($location);
 				} else {
