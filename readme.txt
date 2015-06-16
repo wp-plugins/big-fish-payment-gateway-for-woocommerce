@@ -78,6 +78,9 @@ Yes, at the end of any settlement periods.
 
 == Changelog ==
 
+= 1.0.1 =
+Checkout success link fixed
+
 = 1.0.0 =
 First edition.
 **Wordpress WooCommerce plugin minimum 2.3.6 version is needed.**
