@@ -3,7 +3,7 @@ Contributors: BIG FISH Kft.
 Tags: Payment,credit card, internet payment, online payment
 Requires at least: 4.1.1
 Tested up to: 4.1.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -77,6 +77,9 @@ Yes, at the end of any settlement periods.
 
 
 == Changelog ==
+
+= 1.0.2 =
+Success return url fixed
 
 = 1.0.1 =
 Checkout success link fixed
